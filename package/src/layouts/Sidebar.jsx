@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import user1 from "../assets/images/users/user3.jpg";
 import probg from "../assets/images/bg/download1.jpg";
 
+
 const navigation = [
   {
     title: "Dashboard",
@@ -53,6 +54,16 @@ const navigation = [
     title: "About",
     href: "/about",
     icon: "bi bi-people",
+  },
+  {
+    title: "FuenteSonora",
+    href: "/FuenteSonora",
+    icon: "bi bi-speedometer2",
+  },
+  {
+    title: "DragAndDrop",
+    href: "/Ejemplo",
+    icon: "bi bi-speedometer2",
   },
 ];
 
